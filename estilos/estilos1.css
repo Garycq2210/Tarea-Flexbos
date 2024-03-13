@@ -1,0 +1,85 @@
+.principal
+{
+    background-color: rgb(255, 0, 13);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap; 
+    flex-direction: row;       
+}
+.contendor
+{
+    background-color: rgba(37, 55, 214, 0.402);
+    margin: 10px;
+    width: 300px;   
+    position: relative;
+    display: flex;    
+}
+.conR
+{       
+    background-color: red;
+    display: grid;    
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: 10px;
+}
+.cajar
+{
+    background-color: red;
+    border: 2px solid;
+    padding: 20px;
+    text-align: center;
+}
+.contendorv
+{
+    background-color: rgba(6, 252, 22, 0.204);
+    position: relative;               
+    width: 400px;
+    display: flex;     
+    flex-flow: row wrap;    
+    -ms-flex-align: center;
+
+}
+.verde
+{
+    background-color: rgb(15, 215, 15);        
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    
+}
+.contendorA
+{
+    background-color: rgba(255, 255, 0, 0.439);    
+    flex-direction: column;
+    align-items: center;    
+    display: flex;
+        
+}
+.AMA1
+{    
+background-color: yellow;
+width: 300px;
+height: 50px;
+border: 1px solid;
+position: relative;
+margin: 60px;
+
+}
+.A2
+{        
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.AMA2
+{
+    background-color: yellow;    
+    width: 70px;      
+    height: 140px;      
+    border: 1px solid;
+    margin-left: 80px;
+    position: relative;    
+}
